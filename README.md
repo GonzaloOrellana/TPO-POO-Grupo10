@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Nombre del Proyecto
+# 🎓 TPO-POO-UADE-2026
 
 ![Foto del equipo](fotoGrupo.jpeg)
 
