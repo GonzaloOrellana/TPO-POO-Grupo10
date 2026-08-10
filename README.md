@@ -2,7 +2,7 @@
 
 # 🎓 Nombre del Proyecto
 
-![Foto del equipo](WhatsApp Image 2026-08-10 at 16.55.34.jpeg)
+![Foto del equipo](fotoGrupo.jpeg)
 
 *UADE — Paradigma orientado a objetos — 2026*
 
