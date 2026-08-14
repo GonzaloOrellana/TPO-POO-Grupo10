@@ -2,18 +2,27 @@
 
 # 🎓 TPO-POO-UADE-2026
 
-<img src="fotoGrupo.jpeg" width="50%">
+<h2>👋 Sobre nosotros</h2>
 
-*UADE — Paradigma orientado a objetos — 2026*
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
-</div>
+Somos un grupo de estudiantes de **Lic. en Gestión de Tecnología de la Información de UADE**, cursando la materia **Paradigma Orientado a Objetos**.
 
----
+Este repositorio contiene el desarrollo de nuestro **Trabajo Práctico**, en el cual aplicamos los conceptos de **Programación Orientada a Objetos** vistos durante el cuatrimestre.
 
-## 👋 Sobre nosotros
+Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la cursada mediante el desarrollo de una aplicación basada en los principios de la POO.
 
-Somos un grupo de estudiantes de Lic. en gestion IT de la UADE, cursando la materia **[Paradigma orientado a objetos]**. Este repositorio contiene el desarrollo de nuestro Trabajo Práctico, en el cual aplicamos los conceptos de **Programación Orientada a Objetos** vistos durante el cuatrimestre.
+  </td>
 
+  <td width="50%" align="center">
+
+<img src="fotoGrupo.jpeg" width="90%">
+
+  </td>
+  </tr>
+</table>
 ## 🎯 Objetivos del proyecto
 
 - Aplicar los principios de POO (encapsulamiento, herencia, polimorfismo, abstracción).
