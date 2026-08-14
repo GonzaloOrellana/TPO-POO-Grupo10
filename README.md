@@ -1,6 +1,6 @@
 <div align="center">
 
-🎓 TPO-POO-UADE-2026
+<h2>🎓 TPO-POO-UADE-2026</h2>
 
 <h2>👋 Sobre nosotros</h2>
 
@@ -75,9 +75,10 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 </table>
 
 <h2>✅ Estado del proyecto</h2>
-
+<div align = "left">
 - [x] Configuración del repositorio
 - [x] Clase 1
 - [x] Ejercicios de Clase 2
 - [ ] Clase 3
 - [ ] Entrega final
+</div>
