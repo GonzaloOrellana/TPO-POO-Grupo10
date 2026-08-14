@@ -35,9 +35,9 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 <table align="center">
   <tr>
     <td align="center">
-      <img src="docs/img/integrante1.jpg" width="120" style="border-radius:50%"/><br />
+      <img src="[docs/img/integrante1.jpg](https://www.gonzaorellana.com.ar/images/GonzaLinkedin.png)" width="120" style="border-radius:50%"/><br />
       <b>Gonzalo Orellana</b><br />
-      <sub><a href="https://github.com/GonzaloOrellana">@usuario1</a></sub><br />
+      <sub><a href="https://github.com/GonzaloOrellana">@GonzaloOrellana</a></sub><br />
       💡 Conocimientos: Python, Desarrollo Web, Figma<br />
       ❤️ Le gusta: fútbol, videojuegos, gym
     </td>
@@ -54,7 +54,6 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 ## 🛠️ Tecnologías utilizadas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## ✅ Estado del proyecto
@@ -64,7 +63,3 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 - [x] Ejercicios de Clase 2
 - [ ] Clase 3
 - [ ] Entrega final
-
-## 📄 Licencia
-
-Proyecto académico desarrollado con fines educativos para la materia [Paradigma orientado a objetos] — [UADE], 2026.
