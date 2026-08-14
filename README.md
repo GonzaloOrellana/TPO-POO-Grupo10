@@ -74,6 +74,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
     </td>
   </tr>
 </table>
+<br>
 
 <h2>✅ Estado del proyecto</h2>
   <div align = "left">
