@@ -57,9 +57,9 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 
 <h2>🛠️ Tecnologías utilizadas</h2>
 
-<table align="center">
+<table align="left">
   <tr>
-    <td align="center">
+    <td align="left">
       <a href="https://dev.java">
         <img src="https://static.vecteezy.com/system/resources/previews/048/332/150/non_2x/java-programming-language-java-logo-free-png.png"
              alt="Java"
@@ -67,7 +67,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
       </a>
     </td>
     <td width="50"></td>
-    <td align="center">
+    <td align="left">
       <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
            alt="Git"
            height="100">
