@@ -53,19 +53,23 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 
 ## 🛠️ Tecnologías utilizadas
 
-<p align="center">
-
-<a href="https://dev.java">
-  <img src="https://dev.java/assets/images/java-affinity-logo-icode-lg.png"
-       alt="Java"
-       height="80">
-</a>
-
-<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-     alt="Git"
-     height="80">
-
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://dev.java">
+        <img src="https://dev.java/assets/images/java-affinity-logo-icode-lg.png"
+             alt="Java"
+             height="100">
+      </a>
+    </td>
+    <td width="50"></td>
+    <td align="center">
+      <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+           alt="Git"
+           height="100">
+    </td>
+  </tr>
+</table>
 
 ## ✅ Estado del proyecto
 
