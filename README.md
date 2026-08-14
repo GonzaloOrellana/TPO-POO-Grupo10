@@ -35,20 +35,19 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </div>
 
 <h2>🧑‍🤝‍🧑 El equipo </h2>
-
-<table align="center">
+<table>
   <tr>
-    <td align="center">
+    <td align="left">
       <img src="https://avatars.githubusercontent.com/u/171280675?v=4" width="120" style="border-radius:50%"/><br />
       <b>Gonzalo Orellana</b><br />
       <sub><a href="https://github.com/GonzaloOrellana">@GonzaloOrellana</a></sub><br />
       💡 Conocimientos: Python, Desarrollo Web, Figma<br />
       ❤️ Le gusta: fútbol, videojuegos, gym
     </td>
-    <td align="center">
+    <td align="left">
       <img src="docs/img/integrante2.jpg" width="120" style="border-radius:50%"/><br />
       <b>Nombre Apellido</b><br />
-      <sub><a href="[https://github.com/usuario2](https://github.com/BorisArt)">@usuario2</a></sub><br />
+      <sub><a href="https://github.com/BorisArt">@usuario2</a></sub><br />
       💡 Conocimientos: Python, Java<br />
       ❤️ Le gusta: futbol
     </td>
