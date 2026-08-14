@@ -26,12 +26,12 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 
 🎯 Objetivos del proyecto
 
-<div align="left">
-- Aplicar los principios de POO (encapsulamiento, herencia, polimorfismo, abstracción).<br>
-- Practicar trabajo colaborativo mediante control de versiones con Git y GitHub.<br>
-- Diseñar el sistema utilizando diagramas UML antes de implementarlo.<br>
-- Entregar un producto funcional, documentado y probado.<br>
-</div>
+  <div align="left">
+  - Aplicar los principios de POO (encapsulamiento, herencia, polimorfismo, abstracción).<br>
+  - Practicar trabajo colaborativo mediante control de versiones con Git y GitHub.<br>
+  - Diseñar el sistema utilizando diagramas UML antes de implementarlo.<br>
+  - Entregar un producto funcional, documentado y probado.<br>
+  </div>
 
 🧑‍🤝‍🧑 El equipo
 
