@@ -53,8 +53,19 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 
 ## 🛠️ Tecnologías utilizadas
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<p align="center">
+
+<a href="https://dev.java">
+  <img src="https://dev.java/assets/images/java-affinity-logo-icode-lg.png"
+       alt="Java"
+       height="80">
+</a>
+
+<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+     alt="Git"
+     height="80">
+
+</p>
 
 ## ✅ Estado del proyecto
 
