@@ -24,7 +24,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </tr>
 </table>
 
-🎯 Objetivos del proyecto
+<h2>🎯 Objetivos del proyecto</h2>
 
   <div align="left">
   - Aplicar los principios de POO (encapsulamiento, herencia, polimorfismo, abstracción).<br>
@@ -33,7 +33,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   - Entregar un producto funcional, documentado y probado.<br>
   </div>
 
-🧑‍🤝‍🧑 El equipo
+<h2>🧑‍🤝‍🧑 El equipo </h2>
 
 <table align="center">
   <tr>
@@ -54,7 +54,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </tr>
 </table>
 
-🛠️ Tecnologías utilizadas
+<h2>🛠️ Tecnologías utilizadas</h2>
 
 <table align="center">
   <tr>
@@ -74,7 +74,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </tr>
 </table>
 
-✅ Estado del proyecto
+<h2>✅ Estado del proyecto</h2>
 
 - [x] Configuración del repositorio
 - [x] Clase 1
