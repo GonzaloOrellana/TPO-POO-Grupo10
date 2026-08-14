@@ -1,7 +1,8 @@
 <div align="center">
 
 <h1>🎓 TPO-POO-UADE-2026</h1>
-
+</div>
+<div align= "left">
 <h2>👋 Sobre nosotros</h2>
 
 <table>
