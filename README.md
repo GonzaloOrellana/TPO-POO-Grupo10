@@ -56,8 +56,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 </table>
 
 <h2>🛠️ Tecnologías utilizadas</h2>
-
-<table align="left">
+<table>
   <tr>
     <td align="center">
       <a href="https://dev.java">
@@ -74,13 +73,11 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
     </td>
   </tr>
 </table>
-<br>
 
 <h2>✅ Estado del proyecto</h2>
-  <div align = "left">
-  - [x] Configuración del repositorio.<br>
-  - [x] Clase 1.<br>
-  - [x] Ejercicios de Clase 2.<br>
-  - [ ] Clase 3.<br>
-  - [ ] Entrega final.<br>
-  </div>
+
+- [x] Configuración del repositorio.
+- [x] Clase 1.
+- [x] Ejercicios de Clase 2.
+- [ ] Clase 3.
+- [ ] Entrega final.
