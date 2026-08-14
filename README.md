@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 TPO-POO-UADE-2026
+🎓 TPO-POO-UADE-2026
 
 <h2>👋 Sobre nosotros</h2>
 
@@ -23,14 +23,15 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </td>
   </tr>
 </table>
-## 🎯 Objetivos del proyecto
+
+<h3 align="center">🎯 Objetivos del proyecto</h3>
 
 - Aplicar los principios de POO (encapsulamiento, herencia, polimorfismo, abstracción).
 - Practicar trabajo colaborativo mediante control de versiones con Git y GitHub.
 - Diseñar el sistema utilizando diagramas UML antes de implementarlo.
 - Entregar un producto funcional, documentado y probado.
 
-## 🧑‍🤝‍🧑 El equipo
+🧑‍🤝‍🧑 El equipo
 
 <table align="center">
   <tr>
@@ -51,7 +52,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </tr>
 </table>
 
-## 🛠️ Tecnologías utilizadas
+🛠️ Tecnologías utilizadas
 
 <table align="center">
   <tr>
@@ -71,7 +72,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   </tr>
 </table>
 
-## ✅ Estado del proyecto
+✅ Estado del proyecto
 
 - [x] Configuración del repositorio
 - [x] Clase 1
