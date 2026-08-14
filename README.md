@@ -57,7 +57,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
   <tr>
     <td align="center">
       <a href="https://dev.java">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZO1uQ9gVG7vDI9n4cmS_2qo1d4n25Ik0DSqH2fTuJz5px3jHXvVqnwAm&s=10"
+        <img src="https://static.vecteezy.com/system/resources/previews/048/332/150/non_2x/java-programming-language-java-logo-free-png.png"
              alt="Java"
              height="100">
       </a>
