@@ -35,7 +35,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 <table align="center">
   <tr>
     <td align="center">
-      <img src="[docs/img/integrante1.jpg](https://www.gonzaorellana.com.ar/images/GonzaLinkedin.png)" width="120" style="border-radius:50%"/><br />
+      <img src="https://avatars.githubusercontent.com/u/171280675?v=4" width="120" style="border-radius:50%"/><br />
       <b>Gonzalo Orellana</b><br />
       <sub><a href="https://github.com/GonzaloOrellana">@GonzaloOrellana</a></sub><br />
       💡 Conocimientos: Python, Desarrollo Web, Figma<br />
