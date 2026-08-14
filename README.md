@@ -2,7 +2,7 @@
 
 # 🎓 TPO-POO-UADE-2026
 
-![Foto del equipo](fotoGrupo.jpeg)
+<img src="fotoGrupo.jpeg" width="500">
 
 *UADE — Paradigma orientado a objetos — 2026*
 
