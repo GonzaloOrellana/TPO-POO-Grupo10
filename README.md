@@ -59,7 +59,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 
 <table align="left">
   <tr>
-    <td align="left">
+    <td align="center">
       <a href="https://dev.java">
         <img src="https://static.vecteezy.com/system/resources/previews/048/332/150/non_2x/java-programming-language-java-logo-free-png.png"
              alt="Java"
@@ -67,7 +67,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
       </a>
     </td>
     <td width="50"></td>
-    <td align="left">
+    <td align="center">
       <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
            alt="Git"
            height="100">
