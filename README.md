@@ -78,5 +78,6 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 - [x] Configuración del repositorio.
 - [x] Clase 1.
 - [x] Ejercicios de Clase 2.
-- [ ] Clase 3.
+- [x] Clase 3 y Ejercicios de la Guia.
+- [ ] Clase 4
 - [ ] Entrega final.
