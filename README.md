@@ -45,9 +45,9 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
       ❤️ Le gusta: fútbol, videojuegos, gym
     </td>
     <td align="left">
-      <img src="docs/img/integrante2.jpg" width="120" style="border-radius:50%"/><br />
+      <img src="https://avatars.githubusercontent.com/u/52335182?s=400" width="120" style="border-radius:50%"/><br />
       <b>Nombre Apellido</b><br />
-      <sub><a href="https://github.com/BorisArt">@usuario2</a></sub><br />
+      <sub><a href="https://github.com/BorisArt">@BorisArt</a></sub><br />
       💡 Conocimientos: Python, Java<br />
       ❤️ Le gusta: futbol
     </td>
