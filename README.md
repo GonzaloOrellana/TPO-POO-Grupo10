@@ -79,5 +79,6 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 - [x] Clase 1.
 - [x] Ejercicios de Clase 2.
 - [x] Clase 3 y Ejercicios de la Guia.
-- [ ] Clase 4
+- [x] Clase 4
+- [ ] Propuesta de TPO: https://docs.google.com/document/d/1tE_fZm4e63xAdNe50dz72W3LDgdq0NdsUNsKwzHuLKI/edit?usp=sharing
 - [ ] Entrega final.
