@@ -45,9 +45,9 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
       ❤️ Le gusta: fútbol, videojuegos, gym
     </td>
     <td align="left">
-      <img src="docs/img/integrante2.jpg" width="120" style="border-radius:50%"/><br />
-      <b>Nombre Apellido</b><br />
-      <sub><a href="https://github.com/BorisArt">@usuario2</a></sub><br />
+      <img src="https://avatars.githubusercontent.com/u/52335182?s=400" width="120" style="border-radius:50%"/><br />
+      <b>Agustin Bortman</b><br />
+      <sub><a href="https://github.com/BorisArt">@BorisArt</a></sub><br />
       💡 Conocimientos: Python, Java<br />
       ❤️ Le gusta: futbol
     </td>
@@ -78,5 +78,7 @@ Nuestro objetivo es poner en práctica los conocimientos adquiridos durante la c
 - [x] Configuración del repositorio.
 - [x] Clase 1.
 - [x] Ejercicios de Clase 2.
-- [ ] Clase 3.
+- [x] Clase 3 y Ejercicios de la Guia.
+- [x] Clase 4
+- [ ] Documento inicial TPO: https://docs.google.com/document/d/1KBG0Rz5PM8P3qWuC9s3piQQG0pfAJeKpN0MK6vxnGac/edit?usp=sharing
 - [ ] Entrega final.
