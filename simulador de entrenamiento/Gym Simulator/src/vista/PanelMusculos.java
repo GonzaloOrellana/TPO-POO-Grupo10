@@ -149,11 +149,16 @@ public class PanelMusculos extends JPanel {
     // Ordena de mayor a menor fatiga (el músculo más comprometido aparece primero a la izquierda);
     // a igual fatiga, desempata por el orden del enum TipoMusculo.
     private static class ComparadorPorFatiga implements Comparator<GrupoMuscular> {
+
+        private final boolean descendente = true;
+
         @Override
         public int compare(GrupoMuscular g1, GrupoMuscular g2) {
-            int porFatigaDesc = Integer.compare(g2.getNivelFatiga(), g1.getNivelFatiga());
-            if (porFatigaDesc != 0) {
-                return porFatigaDesc;
+            int porFatiga = descendente
+                    ? Integer.compare(g2.getNivelFatiga(), g1.getNivelFatiga())
+                    : Integer.compare(g1.getNivelFatiga(), g2.getNivelFatiga());
+            if (porFatiga != 0) {
+                return porFatiga;
             }
             return g1.getTipo().compareTo(g2.getTipo());
         }

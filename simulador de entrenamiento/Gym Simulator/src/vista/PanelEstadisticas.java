@@ -6,30 +6,45 @@ import modelo.Personaje;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
+import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
+import javax.swing.plaf.basic.BasicButtonUI;
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.GridLayout;
+import java.awt.Insets;
 import java.awt.event.ActionListener;
 
 // TEMA: herencia: PanelEstadisticas ES UN JPanel (reutiliza el comportamiento de un contenedor Swing)
 public class PanelEstadisticas extends JPanel {
 
-    // Paleta retro pizarra extraída de referencia_gimnasio.png (TEMAS: static final)
-    public static final Color COLOR_FONDO_HUD = new Color(44, 53, 69);       // #2C3545
-    public static final Color COLOR_BORDE_CLARO = new Color(140, 160, 186);  // #8CA0BA
-    public static final Color COLOR_BORDE_OSCURO = new Color(24, 30, 41);    // #181E29
-    public static final Color COLOR_TEXTO = new Color(244, 241, 232);        // #F4F1E8
+    // Paleta retro pizarra y paleta de botones 3D pixel-art (TEMAS: static final)
+    public static final Color COLOR_FONDO_HUD = new Color(44, 53, 69);          // #2C3545
+    public static final Color COLOR_BORDE_CLARO = new Color(140, 160, 186);     // #8CA0BA
+    public static final Color COLOR_BORDE_OSCURO = new Color(24, 30, 41);       // #181E29
+    public static final Color COLOR_TEXTO = new Color(244, 241, 232);           // #F4F1E8
 
-    private static final Color COLOR_FUERZA = new Color(224, 70, 70);        // #E04646
-    private static final Color COLOR_RESISTENCIA = new Color(76, 201, 91);   // #4CC95B
-    private static final Color COLOR_ENERGIA = new Color(242, 201, 56);      // #F2C938
-    private static final Color COLOR_MOTIVACION = new Color(54, 163, 247);   // #36A3F7
+    // Colores exactos extraídos de la imagen de referencia de botones pixel-art
+    public static final Color COLOR_BOTON_CARA = new Color(157, 188, 208);      // #9DBCD0
+    public static final Color COLOR_BOTON_HOVER = new Color(176, 205, 224);     // #B0CDE0
+    public static final Color COLOR_BOTON_BRILLO = new Color(185, 215, 241);    // #B9D7F1
+    public static final Color COLOR_BOTON_BISEL = new Color(62, 97, 125);       // #3E617D
+    public static final Color COLOR_BOTON_CONTORNO = new Color(40, 61, 78);     // #283D4E
+    public static final Color COLOR_BOTON_TEXTO = new Color(56, 90, 116);       // #385A74
+
+    private static final Color COLOR_FUERZA = new Color(224, 70, 70);           // #E04646
+    private static final Color COLOR_RESISTENCIA = new Color(76, 201, 91);      // #4CC95B
+    private static final Color COLOR_ENERGIA = new Color(242, 201, 56);         // #F2C938
+    private static final Color COLOR_MOTIVACION = new Color(54, 163, 247);      // #36A3F7
 
     private static final Font FUENTE_TITULO = new Font(Font.MONOSPACED, Font.BOLD, 16);
     private static final Font FUENTE_BARRA = new Font(Font.MONOSPACED, Font.BOLD, 12);
@@ -164,14 +179,76 @@ public class PanelEstadisticas extends JPanel {
         return caja;
     }
 
+    // Aplica el estilo de botón 3D biselado pixel-art (cara #9DBCD0, brillo #B9D7F1, bisel #3E617D, borde #283D4E)
     public static void estilizarBotonRetro(JButton boton) {
-        boton.setFont(FUENTE_BARRA);
-        boton.setBackground(new Color(58, 74, 98));
-        boton.setForeground(COLOR_TEXTO);
+        estilizarBotonPixelArt(boton, FUENTE_BARRA, new Insets(8, 16, 12, 16));
+    }
+
+    public static void estilizarBotonPixelArt(JButton boton, Font fuente, Insets margen) {
+        boton.setFont(fuente);
+        boton.setForeground(COLOR_BOTON_TEXTO);
         boton.setFocusPainted(false);
-        boton.setBorder(BorderFactory.createCompoundBorder(
-                BorderFactory.createLineBorder(COLOR_BORDE_CLARO, 2),
-                BorderFactory.createEmptyBorder(5, 12, 5, 12)
-        ));
+        boton.setBorderPainted(false);
+        boton.setContentAreaFilled(false);
+        boton.setOpaque(false);
+        boton.setMargin(margen);
+        boton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        boton.setBorder(BorderFactory.createEmptyBorder(
+                margen.top, margen.left, margen.bottom, margen.right));
+
+        boton.setUI(new BasicButtonUI() {
+            @Override
+            public void paint(Graphics g, JComponent c) {
+                JButton b = (JButton) c;
+                Graphics2D g2 = (Graphics2D) g.create();
+                int w = b.getWidth();
+                int h = b.getHeight();
+
+                boolean presionado = b.getModel().isPressed() && b.getModel().isArmed();
+                boolean hover = b.getModel().isRollover();
+
+                int grosorBorde = 3;
+                int altoBisel = presionado ? 3 : 6;
+                int offsetY = presionado ? 3 : 0;
+
+                // 1. Contorno exterior oscuro con esquinas pixel-art escalonadas (#283D4E)
+                g2.setColor(COLOR_BOTON_CONTORNO);
+                g2.fillRect(grosorBorde, offsetY, w - grosorBorde * 2, h - offsetY);
+                g2.fillRect(0, offsetY + grosorBorde, w, h - offsetY - grosorBorde * 2);
+
+                // 2. Bisel 3D inferior (#3E617D)
+                g2.setColor(COLOR_BOTON_BISEL);
+                g2.fillRect(grosorBorde, offsetY + grosorBorde,
+                        w - grosorBorde * 2, h - offsetY - grosorBorde * 2);
+
+                // 3. Cara principal acero claro (#9DBCD0 / #B0CDE0 en hover)
+                int altoCara = h - offsetY - grosorBorde * 2 - altoBisel;
+                g2.setColor(hover ? COLOR_BOTON_HOVER : COLOR_BOTON_CARA);
+                g2.fillRect(grosorBorde, offsetY + grosorBorde, w - grosorBorde * 2, altoCara);
+
+                // 4. Brillo interior celeste hielo (#B9D7F1) arriba, izquierda y sobre el bisel
+                g2.setColor(COLOR_BOTON_BRILLO);
+                g2.fillRect(grosorBorde + 2, offsetY + grosorBorde, w - (grosorBorde + 2) * 2, 2);
+                g2.fillRect(grosorBorde, offsetY + grosorBorde + 2, 2, Math.max(0, altoCara - 4));
+                g2.fillRect(grosorBorde + 2, offsetY + grosorBorde + altoCara - 2,
+                        w - (grosorBorde + 2) * 2, 2);
+
+                // 5. Texto centrado con sombra/relieve celeste claro como en la imagen de referencia
+                String texto = b.getText();
+                if (texto != null && !texto.isEmpty()) {
+                    g2.setFont(b.getFont());
+                    FontMetrics fm = g2.getFontMetrics();
+                    int tx = (w - fm.stringWidth(texto)) / 2;
+                    int ty = offsetY + grosorBorde + (altoCara - fm.getHeight()) / 2 + fm.getAscent();
+
+                    g2.setColor(COLOR_BOTON_BRILLO);
+                    g2.drawString(texto, tx + 2, ty + 2);
+                    g2.setColor(COLOR_BOTON_TEXTO);
+                    g2.drawString(texto, tx, ty);
+                }
+
+                g2.dispose();
+            }
+        });
     }
 }

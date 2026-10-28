@@ -9,6 +9,8 @@ import java.util.List;
 // TEMA: clase utilitaria: constructor privado y métodos estáticos (no se instancia)
 public final class CatalogoEventos {
 
+    public static final int MAX_PENALIZACION_ENERGIA = -20;
+
     private CatalogoEventos() {
     }
 
@@ -18,7 +20,7 @@ public final class CatalogoEventos {
         List<EventoAleatorio> eventos = new ArrayList<>();
 
         eventos.add(new EventoAleatorio("Tuviste una mala noche y dormiste mal.", List.of(
-                new OpcionEvento("Entrenar igual", -20, 0),
+                new OpcionEvento("Entrenar igual", MAX_PENALIZACION_ENERGIA, 0),
                 new OpcionEvento("Ir con calma", -10, -5))));
 
         eventos.add(new EventoAleatorio("Un amigo te invita un batido.", List.of(

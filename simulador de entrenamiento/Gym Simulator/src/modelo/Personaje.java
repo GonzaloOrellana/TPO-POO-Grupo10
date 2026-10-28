@@ -7,6 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Personaje {
+    private static final int EDAD_POR_DEFECTO = 25;
     private static final int ENERGIA_MAXIMA = 100;
     private static final int MOTIVACION_MAXIMA = 100;
     private static final int ENERGIA_DIARIA = 40;
@@ -23,6 +24,10 @@ public class Personaje {
     private final Map<TipoMusculo, GrupoMuscular> gruposMusculares;
 
     // TEMA: sobrecarga de constructores + this(...)
+    public Personaje(String nombre, Objetivo objetivo) throws DatosInvalidosException {
+        this(nombre, EDAD_POR_DEFECTO, objetivo);
+    }
+
     public Personaje(String nombre, int edad, Objetivo objetivo) throws DatosInvalidosException {
         this(nombre, edad, objetivo, 0, 0, ENERGIA_MAXIMA, MOTIVACION_MAXIMA);
     }
